@@ -1,3 +1,5 @@
 1. [Документирование кода](../master/code-documentation.md)  
 2. [Шаблонизация](../master/шаблонизация.md)
 3. [Массивы](../master/arrays.md)
+4. [Про базу данных](../master/database.md)
+5. [SQL](../master/sql.md)
