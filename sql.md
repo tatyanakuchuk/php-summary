@@ -203,3 +203,13 @@ ON c.users_id = u.id;
 
  Записи из двух таблиц могут ссылаться друг на друга не напрямую, а через промежуточную таблицу:  
  ![таблица](../master/img/img-1.png)
+
+Пример:
+ ```sql
+ SELECT title, name FROM users u
+ INNER JOIN gifs_fav gf ON u.id = gf.users_id
+ INNER JOIN gifs g ON gf.gif_id = g.id;
+ ```
+
+Результат:  
+![таблица](../master/img/img-2.png)
