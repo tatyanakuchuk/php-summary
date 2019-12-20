@@ -7,3 +7,4 @@
 7. [Поддержка MySQL в PHP](../master/date-and-time.md)
 8. [Хранение состояния](../master/хранение-состояния.md)
 9. [Cookies](../master/cookies.md)
+10. [Сессии](../master/сессия.md)
